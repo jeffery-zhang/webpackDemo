@@ -17,12 +17,12 @@ function webpackConfig() {
         {
           test: /\.(css|less)$/,
           use: ['style-loader', 'css-loader', 'less-loader'],
+          exclude: '/node_modules/',
         },
         {
-          test: /\.jsx?/,
-          use: {
-            loader: 'babel-loader',
-          },
+          test: /\.(js|jsx)?$/,
+          use: ['babel-loader'],
+          exclude: '/node_modules/',
         },
       ],
     },
