@@ -10,9 +10,12 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.13.16",
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.13.15",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
     "@babel/preset-react": "^7.13.13",
     "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
     "css-loader": "^5.2.4",
     "less-loader": "^8.1.1",
     "path": "^0.12.7",
